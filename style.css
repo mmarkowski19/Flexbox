@@ -1,0 +1,103 @@
+* {
+    box-sizing: box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+}
+
+header h1 {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    color: darkblue;
+}
+
+header nav {
+    flex-basis: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    background-color: lightblue;
+    justify-content: center;
+    margin: 20px 5px;
+    padding: 10px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+
+
+main {
+    background-color: rgb(92, 162, 185);
+    display: flex;
+}
+
+
+.zol {
+    background-color: lightgoldenrodyellow;
+}
+
+.sek1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 75%;
+    margin-top: 30px;
+}
+
+.sek1 .zol {
+    flex-basis: 45%;
+    padding: 10px 10px;
+}
+
+.sek1 .tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.sek2 {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-around;
+    padding: 0 20px;
+
+}
+
+
+footer::before {
+    content: "©"
+}
+
+
+footer {
+    background-color: cornflowerblue;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
